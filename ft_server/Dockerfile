@@ -1,4 +1,6 @@
-FROM debian:buster
+FROM debian:buster-slim
+
+ENV AUTOINDEX on
 
 COPY src ./root/
 
